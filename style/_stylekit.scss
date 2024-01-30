@@ -1,0 +1,322 @@
+html {
+    --object-day-black-100: #101828;
+    --object-day-black-70: #101828B2;
+    --states-orange-hovered: #D33706;
+}
+
+// Шрифты
+
+.font-h2 {
+    font-family: "Rostelecom Basis";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    color: var(--object-day-black-100);
+
+    @include md {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    @include sm {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}
+
+.font-h4 {
+    font-family: "Rostelecom Basis";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--object-day-black-100);
+
+    @include md {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    @include sm {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+.font-t-m {
+    font-family: "Rostelecom Basis";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--object-day-black-100);
+
+    @include sm {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.font-h-l {
+    font-family: "Rostelecom Basis";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--object-day-black-100);
+
+    @include md {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+.font-h-m {
+    font-family: "Rostelecom Basis";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--object-day-black-100);
+
+    @include sm {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+// Цвета
+
+.color--black-100 {
+    color: var(--object-day-black-100);
+}
+
+.color--black-70 {
+    color: var(--object-day-black-70);
+}
+
+.color--orange {
+    color: var(--states-orange-hovered);
+}
+
+.link--orange {
+    color: var(--states-orange-hovered);
+    cursor: pointer;
+}
+
+// sp-dark-purple
+.sp-v-dark-purple {
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    @include md {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    @include sm {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+
+// sp-green
+.sp-t-green {
+    padding-top: 64px;
+
+    @include md {
+        padding-top: 48px;
+    }
+
+    @include sm {
+        padding-top: 40px;
+    }
+}
+
+.sp-b-green {
+    padding-bottom: 64px;
+
+    @include md {
+        padding-bottom: 48px;
+    }
+
+    @include sm {
+        padding-bottom: 40px;
+    }
+}
+
+.sp-v-green {
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    @include md {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    @include sm {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+// sp-purple
+.sp-t-purple {
+    padding-top: 40px;
+
+    @include md {
+        padding-top: 40px;
+    }
+
+    @include sm {
+        padding-top: 32px;
+    }
+}
+
+.sp-b-purple {
+    padding-bottom: 40px;
+
+    @include md {
+        padding-bottom: 40px;
+    }
+
+    @include sm {
+        padding-bottom: 32px;
+    }
+}
+
+.sp-v-purple {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @include md {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    @include sm {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+// sp-mint
+.sp-t-mint {
+    padding-top: 32px;
+
+    @include md {
+        padding-top: 32px;
+    }
+
+    @include sm {
+        padding-top: 28px;
+    }
+}
+
+.sp-b-mint {
+    padding-bottom: 32px;
+
+    @include md {
+        padding-bottom: 32px;
+    }
+
+    @include sm {
+        padding-bottom: 28px;
+    }
+}
+
+.sp-v-mint {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    @include md {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    @include sm {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+}
+
+// sp-lightblue
+.sp-t-light-blue {
+    padding-top: 16px;
+
+    @include md {
+        padding-top: 16px;
+    }
+
+    @include sm {
+        padding-top: 12px;
+    }
+}
+
+.sp-b-light-blue {
+    padding-bottom: 16px;
+
+    @include md {
+        padding-bottom: 16px;
+    }
+
+    @include sm {
+        padding-bottom: 12px;
+    }
+}
+
+.sp-v-light-blue {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    @include md {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    @include sm {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+// sp-yellow
+.sp-t-yellow {
+    padding-top: 20px;
+
+    @include md {
+        padding-top: 20px;
+    }
+
+    @include sm {
+        padding-top: 20px;
+    }
+}
+
+.sp-b-yellow {
+    padding-bottom: 20px;
+
+    @include md {
+        padding-bottom: 20px;
+    }
+
+    @include sm {
+        padding-bottom: 20px;
+    }
+}
+
+.sp-v-yellow {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    @include md {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    @include sm {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

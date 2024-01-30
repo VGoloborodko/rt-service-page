@@ -1,0 +1,12 @@
+/* Контейнер */
+
+/* One */
+.container {
+  width: 100%;
+  max-width: 710px;
+  margin: 0 auto;
+  
+  @include md {
+    max-width: unset;
+  }
+}
