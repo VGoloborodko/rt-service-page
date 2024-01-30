@@ -1,1 +1,1 @@
-# service-page
+@RT service-page
