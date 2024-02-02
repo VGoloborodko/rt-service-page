@@ -1,7 +1,10 @@
 html {
     --object-day-black-100: #101828;
     --object-day-black-70: #101828B2;
+    --object-day-black-50: #868B95;
     --states-orange-hovered: #D33706;
+    --states-orange-Pressed: #B12F01;
+    --object-night-white-100: #FFFFFF;
 }
 
 // Шрифты
@@ -86,6 +89,15 @@ html {
     }
 }
 
+.font-t-s {
+    font-family: "Rostelecom Basis";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--object-day-black-100);
+}
+
 // Цвета
 
 .color--black-100 {
@@ -94,6 +106,10 @@ html {
 
 .color--black-70 {
     color: var(--object-day-black-70);
+}
+
+.color--black-50 {
+    color: var(--object-day-black-50);
 }
 
 .color--orange {
